@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 import { fetchAndParseWebsite, webhook } from './functions.js'
+import axios from 'axios';
 
 
 let arrayindex = []
@@ -20,9 +21,9 @@ async function send() {
     }
     
 }
-setInterval(() => {
+// setInterval(() => {
     send();
-  }, 900000);
+//   }, 900000);
   
   // Initial fetch and send
   console.log('Fetching initial data and sending...');
