@@ -22,6 +22,7 @@ async function send() {
     
 }
 send();
+send();
 setInterval(() => {
     send();
   }, 60000);
