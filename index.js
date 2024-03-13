@@ -21,9 +21,9 @@ async function send() {
     }
     
 }
-// setInterval(() => {
+setInterval(() => {
     send();
-//   }, 900000);
+  }, 60000);
   
   // Initial fetch and send
   console.log('Fetching initial data and sending...');
