@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 dotenv.config();
-import { fetchAndParseWebsite, webhook } from './functions.js'
+import { fetchAndParseWebsite, webhook } from '../functions.js'
 import axios from 'axios';
 
 
